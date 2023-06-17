@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.film{
+  max-width: 300px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.film:hover{
+  scale: 1.05;
+  transition: all 0.4s;
+}
+.detail{
+  min-height: 93vh;
+}
+.detail-img{
+  max-height: 480px;
 }
